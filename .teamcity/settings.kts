@@ -61,6 +61,8 @@ object Netology : Project({
 object Netology_Build : BuildType({
     name = "Build"
 
+    artifactRules = "target/*.jar"
+
     vcs {
         root(Netology_HttpsGithubComTaikobara3exampleTeamcityGitRefsHeadsMaster)
     }
