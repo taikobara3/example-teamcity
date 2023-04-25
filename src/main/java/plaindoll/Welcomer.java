@@ -7,13 +7,13 @@ public class Welcomer{
 	public String sayFarewell() {
 		return "Farewell, good hunter. May you find your worth in waking world.";
 	}
-	public String sayNeedGold(){
+	public String sayNeedGold() {
 		return "Not enough gold";
 	}
-	public String saySome(){
+	public String saySome() {
 		return "something in the way";
 	}
         public String sayHunterduck() {
-        return "Hunter is not hunterduck.";
+                return "Hunter is not hunterduck.";
         }
 }
